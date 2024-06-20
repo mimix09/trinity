@@ -1,0 +1,2 @@
+# trinity
+jakas aplikacja
