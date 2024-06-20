@@ -1,0 +1,22 @@
+html, body{
+    background-color: rgb(230, 228, 225);
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.glown-menu{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    
+}
