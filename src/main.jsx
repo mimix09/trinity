@@ -1,12 +1,15 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import './firebase';
 
-import MainPage from '../app/screens/MainPage'
-import Grafik from '../app/screens/Grafik'
-import KoloFortuny from '../app/screens/KoloFortuny'
-import Kalendarz from '../app/screens/Kalendarz'
-import Inne from '../app/screens/Inne'
+import MainPage from '../app/screens/MainPage';
+import Grafik from '../app/screens/Grafik';
+import KoloFortuny from '../app/screens/KoloFortuny';
+import Kalendarz from '../app/screens/Kalendarz';
+import Inne from '../app/screens/Inne';
+
+import '../app/style/mainStyle.css';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>

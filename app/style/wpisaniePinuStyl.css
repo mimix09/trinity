@@ -1,0 +1,10 @@
+.pin-container {
+    background-color: red;
+    position: absolute;
+    padding: 10px;
+}
+
+.pin-container input {
+    height: 50px;
+    font-size: 30px;
+}
