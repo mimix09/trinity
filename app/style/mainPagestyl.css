@@ -1,15 +1,29 @@
-html, body{
-    background-color: rgb(230, 228, 225);
-    height: 100%;
+html,
+body {
     margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: rgb(230, 228, 225);
+}
+
+.mainPageContainer {
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
+    margin: 0;
+
+    font-family: "Roboto Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
 }
 
-.glown-menu{
+.glown-menu {
     font-size: 50px;
     display: flex;
+    flex-direction: column;
+    /* Ustawienie w kolumnie */
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -18,4 +32,10 @@ html, body{
 a {
     text-decoration: none;
     color: rgb(59, 59, 59);
+    margin: 10px 0;
+    /* Margines między linkami */
+}
+
+a:hover {
+    text-decoration: underline;
 }

@@ -1,12 +1,23 @@
+import { useNavigate } from "react-router-dom";
+
 import "../style/mainPagestyl.css";
 
 function MainPage(){
+    const navigation = useNavigate();
+
+    
+    const doStrony = (x) =>{
+        navigation(x);
+    }
+
 
     return (
-        <div>
+        <div className="mainPageContainer">
             <div className="glown-menu">
-                <a href="">jeden</a>
-                <a href="">dwa</a>
+                <a onClick={() => doStrony("/1")}>Grafik</a>
+                <a onClick={() => doStrony("/2")}>Koło Fortuny</a>
+                <a onClick={() => doStrony("/3")}>kalenarz?</a>
+                <a onClick={() => doStrony("/4")} >inne</a>
             </div>
         </div>
     );
