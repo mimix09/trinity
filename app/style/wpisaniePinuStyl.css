@@ -2,9 +2,12 @@
     background-color: red;
     position: absolute;
     padding: 10px;
+    text-align: center;
 }
 
-.pin-container input {
+
+.pin-container div input {
     height: 50px;
     font-size: 30px;
+    text-align: center;
 }
